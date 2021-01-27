@@ -132,7 +132,9 @@ class MongoClientConnection:
     def importdanych(self):
         time1 = time.time_ns()
         print("start import")
-        time.sleep(113.9544209)
+        data = pd.read_csv('dataset.csv')
+        payload = json.loads(data.to_json(orient='records'))
+        self.col.insert_many(payload)
         time2 = time.time_ns()
         print("end import")
 
