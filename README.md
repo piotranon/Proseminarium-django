@@ -1,7 +1,7 @@
 # Proseminarium-django
 
 Pobranie danych do testów.  
-https://drive.google.com/file/d/1SEDg_HJRCUarff1YMRXCHjv7mJhdrXFy/view?usp=sharing
+https://drive.google.com/file/d/1SEDg_HJRCUarff1YMRXCHjv7mJhdrXFy/view?usp=sharing  
 Pobrany plik trzeba wrzucić do folderu api pod nazwą dataset.csv
 
 Pierwsze uruchomienie  
